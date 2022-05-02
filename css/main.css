@@ -220,9 +220,7 @@ a.header-btn {
   position: relative;
   margin: 0 auto;
 }
-.services-boxes li:hover {
-  transform: scale(1.05);
-}
+
 .services-box-reddot {
   width: 22px;
   height: 22px;
@@ -259,6 +257,9 @@ a.header-btn {
   }
   .services-boxes li {
     width: 240px;
+  }
+  .services-boxes li:hover {
+    transform: scale(1.05);
   }
 }
 
